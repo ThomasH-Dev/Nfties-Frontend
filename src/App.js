@@ -1,27 +1,19 @@
-import React from 'react'; 
-import './App.css';
-import Art from './components/Art'; 
-import Navigation from './components/Navigation';
-import Market from './Market';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'; 
-import { Navbar, Nav, Container, Button, Form, NavDropdown, FormControl } from 'react-bootstrap';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Navigation from "./components/Navigation";
+import { Web3ReactProvider } from "@web3-react/core";
+import Web3 from "web3";
 
-
+function getLibrary(provider) {
+  return new Web3(provider);
+}
 function App() {
-  const me = 1;
   return (
-    <Router>
-      <div className="App">
+    <div className="App">
+      <Web3ReactProvider getLibrary={getLibrary}>
         <Navigation />
-        <Container fluid = "md">
-        <Switch> 
-          <Route path="/" exact component = {Market} />
-          <Route path ="/art" component={Art} />
-          
-        </Switch>
-        </Container>
-      </div>
-    </Router>
+      </Web3ReactProvider>
+    </div>
   );
 }
 
