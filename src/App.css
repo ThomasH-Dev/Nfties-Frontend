@@ -1,0 +1,23 @@
+.headerTitle{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.artCol {
+    margin-bottom: 20px; 
+}
+
+.headerTitle {
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+
+}
+
+.card-text{
+    font-family: 'Roboto Mono', monospace;
+}
+
+.card-title {
+    font-family: 'Roboto Mono', monospace;
+    font-family: 'Roboto Slab', serif;
+}
