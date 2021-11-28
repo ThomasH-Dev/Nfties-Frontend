@@ -40,14 +40,14 @@ export default function Signup() {
 
   return (
     <div>
-      <h1 class="headerTitle"> My Wallet</h1>
+      <h1 class="headerTitle"> Sign Up</h1>
       <Container>
         <Row>
           <Col />
           <Col>
             <Card className="text-center" style={{ width: "fluid" }}>
               <p></p>
-              <Card.Title>  Sign up</Card.Title>
+              
            
               <Card.Body>
                 <Card.Text>
