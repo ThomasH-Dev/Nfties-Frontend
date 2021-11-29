@@ -1,6 +1,6 @@
 import { useWeb3React } from "@web3-react/core";
 import React, { Component } from "react";
-import { Navbar, Row, Col, Nav, Container, Button, Card } from 'react-bootstrap';
+import {  Row, Col, Nav, Container, Button, Card } from 'react-bootstrap';
 import fox from "../img/fox.png";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
