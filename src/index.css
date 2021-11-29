@@ -30,3 +30,10 @@ code {
   width: 200px;
   border-radius: 35px;
 }
+.alignleft{
+  text-align: left;
+  margin-bottom: 1.1rem;
+}
+.alignleft p{
+  margin-bottom: 1.1rem;
+}

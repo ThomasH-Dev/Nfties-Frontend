@@ -155,43 +155,63 @@ const DropList = () => {
            
               <Card.Body>
               <div className={"content"}>
-       
-
-         
-         
-       <form onSubmit={handleSubmit(onSubmit)}>
-         <label>ImageUri</label>
+              <form onSubmit={handleSubmit(onSubmit)}>
+              <Row>
+              
+    <Col>
+    <div class = "alignleft">
+    <p>ImageUri</p>
+    <p>Name</p>
+    <p>Description</p>
+    <p>Twitter</p>
+    <p>Discord</p>
+    <p>Website</p>
+    <p>Discord</p>
+    <p>Price</p>
+    <p>Supply</p>
+    <p>Presale</p>
+    <p>Chain</p>
+    </div>
+    </Col>
+    <Col>
          <input {...register("imageUri")} />
-         <br />
-         <label>Name</label>
+          <p></p>
+         
          <input {...register("name")} />
          <br />
-         <label>Description</label>
+         <p></p>
          <input {...register("description")} />
          <br />
-         <label>Twitter</label>
+         <p></p>
          <input {...register("social_1")} />
          <br />
-         <label>Discord</label>
+         <p></p>
          <input {...register("social_2")} />
          <br />
-         <label>Website</label>
+         <p></p>
          <input {...register("websiteUri")} />
          <br />
-         <label>Price</label>
+         <p></p>
          <input {...register("price")} />
          <br />
-         <label>Supply</label>
+         <p></p>
          <input {...register("supply")} />
          <br />
-         <label>Presale</label>
+         <p></p>
          <input {...register("presale")} />
          <br />
-         <label>Chain</label>
+         <p></p>
          <input {...register("chain")} />
          <br />
+         <p></p>
          <input type="submit" />
-       </form>
+       
+   </Col>
+  
+    </Row>
+    </form> 
+         
+       
    
  </div>
                
