@@ -3,10 +3,8 @@ import contract from "../contract/contract.json";
 import Web3 from "web3";
 import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
-import "react-tabs/style/react-tabs.css";
-import { cleanup } from "@testing-library/react";
-import { Navbar, Row, Col, Nav, Container, Button, Form, NavDropdown, FormControl } from 'react-bootstrap';
+
+import {  Row, Col, Container, Button,  } from 'react-bootstrap';
 import Art from './Art';
 
 //used to connect to blockchain
