@@ -6,6 +6,7 @@ import Market from "./Market";
 import Signin from "./Signin";
 import Signup from "./Signup";
 import DropList from "./DropList";
+import CardDetails from "./CardDetails";
 
 export default class Navigation extends Component {
   render() {
@@ -46,6 +47,9 @@ export default class Navigation extends Component {
             </Route>
             <Route path="/DropList">
               <DropList />
+            </Route>
+            <Route path="/CardDetails">
+              <CardDetails />
             </Route>
 
             <Route path="/">

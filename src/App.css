@@ -13,6 +13,19 @@
 
 }
 
+.textAlign {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+
+}
+
+.largeText {
+    font-size: 30px
+
+}
+
 .card-text{
     font-family: 'Roboto Mono', monospace;
 }
@@ -21,3 +34,8 @@
     font-family: 'Roboto Mono', monospace;
     font-family: 'Roboto Slab', serif;
 }
+
+.adjust-line-height{
+    line-height: .05em
+}
+
